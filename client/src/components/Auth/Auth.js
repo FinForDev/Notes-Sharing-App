@@ -20,7 +20,7 @@ const SignUp = () => {
     const classes = useStyles();
     const error = useSelector((state) => state.auth.error);
 
-    
+
 
 
     const [showPassword, setShowPassword] = useState(false);
@@ -88,7 +88,7 @@ const SignUp = () => {
                                 disabled={renderProps.disabled}
                                 startIcon={<Icon />}
                                 variant="contained">
-                                Google Sign In
+                                Google Sign In Acc
                             </Button>
                         )}
                         onSuccess={googleSuccess}
