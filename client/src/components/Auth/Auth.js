@@ -88,7 +88,7 @@ const SignUp = () => {
                                 disabled={renderProps.disabled}
                                 startIcon={<Icon />}
                                 variant="contained">
-                                Google Sign In Acc
+                                Google Sign In Account
                             </Button>
                         )}
                         onSuccess={googleSuccess}
